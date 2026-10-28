@@ -1,84 +1,86 @@
-# ✏️ Write It Right
+# ✏️ Write It Right v2
 
-ကျောင်းသား ကျောင်းသူများအတွက် **English Writing Practice** App ဖြစ်ပါတယ်။ Notebook + red-pen ပုံစံ UI နဲ့ Internet မရှိဘဲ (Offline) လေ့ကျင့်နိုင်တဲ့ **PWA** ဖြစ်ပြီး ဖုန်း၊ Tablet၊ Computer အားလုံးမှာ သုံးနိုင်ပါတယ်။
+ကျောင်းသား ကျောင်းသူများအတွက် **English Writing · Dictation · Picture Vocabulary** လေ့ကျင့်ခန်း App ပါ။ Notebook + red-pen ပုံစံ UI နဲ့ Internet မလိုဘဲ (Offline) သုံးနိုင်တဲ့ **PWA** ဖြစ်ပြီး ဖုန်း၊ Tablet၊ Computer အားလုံးမှာ ရပါတယ်။
 
 ## ✨ Features
 
-- CSV / Excel (.xlsx) ဖိုင်တင်ပြီး လေ့ကျင့်ခန်းဖန်တီးခြင်း၊ Excel row တွေ paste လုပ်ခြင်း
-- `( )` = ပါလည်းရ မပါလည်းရ စကားလုံး၊ `||` = အခြားမှန်တဲ့အဖြေ
-- `Mode = self` ဆိုရင် ကျောင်းသားကိုယ်တိုင် နမူနာအဖြေနဲ့ တိုက်စစ်
-- စာလုံးအကြီးအသေး စစ်/မစစ် ရွေးနိုင်
-- Shuffle၊ Restart၊ Result screen၊ မှားတာတွေပဲ **Try Again**
-- အသံ effect နဲ့ Mute၊ Full screen
-- **EN / MM** UI ဘာသာစကား ပြောင်းနိုင် (English default)
-- တင်ထားတဲ့ လေ့ကျင့်ခန်းကို browser မှာ မှတ်ထား
-- Home screen ထဲ App အဖြစ် Install လုပ်ပြီး Offline သုံးနိုင်
+**ရေးနည်းလေ့ကျင့်ခန်း (မူရင်း)**
+- CSV / Excel (.xlsx) တင်ခြင်း၊ Excel row တွေကို paste လုပ်ခြင်း
+- `( )` ပါလည်းရ မပါလည်းရ စကားလုံး၊ `||` အခြားအဖြေမှန်
+- အဖြေမှားရင် ဆရာ့ red-pen နဲ့ ပြင်ပြပေးခြင်း၊ `Mode = self` ဆိုရင် ကိုယ်တိုင်စစ်ခြင်း
+- စာလုံးအကြီးအသေး စစ်/မစစ်၊ Shuffle၊ Restart၊ Result၊ မှားတာတွေပဲ ထပ်လေ့ကျင့်ခြင်း
+- အသံ effect၊ Mute၊ Full screen၊ **EN / မြန်မာ** UI
 
-## 📁 Files
+**🎧 Dictation (အသစ်)**
+- Audio player: ▶ ဖွင့်/ရပ်၊ **🔁 Repeat (အစကနေ ပြန်ဖွင့်)**၊ ⟲ 5 စက္ကန့် နောက်ပြန်၊ အမြန်နှုန်း **0.75× / 1×**၊ ရှေ့/နောက် ဆွဲလို့ရတဲ့ bar
+- `Start` / `End` နဲ့ အသံဖိုင်ရှည်တစ်ခုထဲက တစ်ပိုင်းချင်းကိုပဲ ဖွင့်နိုင်
+- နားထောင်ခွင့် ကန့်သတ်ခြင်း (∞ / 1 / 2 / 3 / 5 ကြိမ်)
+- စာရေးနေရင်း **Ctrl + Space** နှိပ်ပြီး ဖွင့်/ရပ်
 
-```
-index.html             ← App (မူရင်း UI အတိုင်း)
-manifest.webmanifest   ← PWA အချက်အလက်
-sw.js                  ← Offline cache
-icons/                 ← App icon (192, 512, Apple, SVG)
-.nojekyll
-README.md
-```
+**🖼 Picture Vocabulary (အသစ်)**
+- ပုံကိုကြည့်ပြီး ဝေါဟာရ ရေးခြင်း
+- **💡 Hint** ခလုတ်: နှိပ်တိုင်း စာလုံးတစ်လုံးစီ ပေါ်လာမယ် (`a p _ _ _`)
+- ပုံကြီးတွေကို app က အလိုအလျောက် ချုံ့ပေးလို့ ဖုန်းမှာ မလေးဘူး
 
-## 🚀 GitHub Pages တင်နည်း
+## 📤 File တင်နည်း
 
-1. ZIP ကို **Extract** ဖြည်ပါ။
-2. GitHub မှာ Repository အသစ် ဖန်တီးပါ (ဥပမာ `write-it-right`)၊ **Public** ထားပါ။
-3. **Add file → Upload files** နှိပ်ပြီး ZIP ထဲက file/folder အားလုံးကို ဆွဲထည့်ပါ (`icons` folder ပါ ပါရမယ်)။ **Commit changes** နှိပ်ပါ။
-4. **Settings → Pages** သွားပါ။
-5. **Source** = `Deploy from a branch`၊ **Branch** = `main`၊ folder = `/ (root)` ရွေးပြီး **Save**။
-6. ၁–၂ မိနစ်စောင့်ပါ။ Link ရပါမယ်: `https://<username>.github.io/write-it-right/`
+**Upload** ကိုနှိပ်ပြီး အောက်ပါနည်းနှစ်မျိုးထဲက တစ်မျိုးနဲ့ တင်ပါ:
 
-> ⚠️ `index.html` က Repository ရဲ့ root မှာ တိုက်ရိုက်ရှိရပါမယ်။ folder တစ်ဆင့်အောက်ရောက်နေရင် 404 ပြပါမယ်။
-> `.nojekyll` က hidden file ဖြစ်လို့ မမြင်ရရင် မတင်လည်း App အလုပ်လုပ်ပါတယ်။
+1. **CSV/Excel နဲ့ အသံ၊ ပုံ file အားလုံးကို တစ်ခါတည်း ရွေးတင်** (Computer မှာ Ctrl / Shift နှိပ်ပြီး file အများကြီး ရွေးလို့ရ)
+2. **ZIP တစ်ဖိုင်တည်း** တင်ခြင်း: CSV နဲ့ media file အားလုံးကို ZIP လုပ်ပြီး တင်ပါ (ဖုန်းမှာ အလွယ်ဆုံး)
 
-## 📲 Install လုပ်နည်း
-
-- **Android (Chrome)**: Link ဖွင့် → ⋮ menu → **Install app / Add to Home screen**
-- **iPhone / iPad (Safari)**: Share ⬆️ → **Add to Home Screen**
-- **Computer (Chrome / Edge)**: Address bar ညာဘက်က Install ⊕ icon
-
-ပထမဆုံးတစ်ခါ **Internet ရှိချိန်မှာ ဖွင့်ပေးရပါမယ်**။ ပြီးရင် Offline မှာ ဖွင့်လို့ရပါပြီ။
+- အသံ: `.mp3` (အကြံပြု), `.m4a`, `.wav`, `.ogg` …
+- ပုံ: `.jpg`, `.png`, `.webp`, `.gif`, `.svg`
+- File တွေကို **ဒီ device ထဲမှာပဲ** သိမ်းထားလို့ app ပိတ်ပြီး ပြန်ဖွင့်လည်း ကျန်နေမယ်။ ဖုန်းတစ်လုံးချင်းစီမှာ တစ်ခါ တင်ပေးရမယ်။
+- CSV ထဲက file နာမည်နဲ့ တင်တဲ့ file နာမည် တူရမယ် (အကြီးအသေး မဆိုင်)။ မတွေ့တဲ့ file ရှိရင် app က နာမည်နဲ့တကွ ပြောပြပါမယ်။
 
 ## 📝 CSV Format
 
 ```csv
-Instruction,Questions,Answer,Mode
-Change into passive voice.,Mg Mg wrote a letter.,A letter was written by Mg Mg.,
-,They are building a new school.,A new school is being built (by them).,
-Answer the question.,What did you do yesterday?,I went to the market.,self
+Instruction,Questions,Answer,Mode,Audio,Image,Start,End
+Change into passive voice.,Mg Mg wrote a letter.,A letter was written by Mg Mg.,,,,,
+Listen and write.,,I go to school by bus.,,lesson1.mp3,,,
+,,She is reading a book.,,lesson2.mp3,,0:05,0:09
+Look and write the word.,,elephant,,,elephant.jpg,,
+,What is this?,an umbrella || umbrella,,,umbrella.png,,
 ```
 
 | Column | အဓိပ္ပာယ် |
 |---|---|
 | Instruction | ညွှန်ကြားချက်။ အလွတ်ထားရင် အပေါ်ကဟာ ဆက်သုံး |
-| Questions | မေးခွန်း (မဖြစ်မနေ) |
+| Questions | မေးခွန်း။ Audio / Image ပါရင် အလွတ်ထားလို့ရ |
 | Answer | အဖြေ (မဖြစ်မနေ)။ `( )` optional၊ `\|\|` အခြားအဖြေ |
 | Mode | `self` = ကိုယ်တိုင်စစ်၊ အလွတ် = App က စစ် |
+| Audio | အသံ file နာမည် (ဥပမာ `lesson1.mp3`) |
+| Image | ပုံ file နာမည် (ဥပမာ `cat.jpg`) |
+| Start / End | ဖွင့်မယ့်အပိုင်း: `0:05` (သို့) `5` စက္ကန့် (မထည့်လည်းရ) |
 
-> မြန်မာစာ `????` ဖြစ်နေရင် Excel မှာ **CSV UTF-8** နဲ့ save ပါ (သို့) `.xlsx` ကို တိုက်ရိုက်တင်ပါ။
+> မြန်မာစာ `????` ဖြစ်ရင် Excel မှာ **CSV UTF-8** နဲ့ save ပါ (သို့) `.xlsx` ကို တိုက်ရိုက်တင်ပါ။
 
-## 🔄 Update တင်နည်း
+## 🚀 GitHub Pages တင်နည်း / Update တင်နည်း
 
-`index.html` ပြင်ပြီး ပြန်တင်တိုင်း `sw.js` ထဲက `VERSION` ကို တိုးပေးပါ:
+1. ZIP ကို **Extract** ဖြည်ပါ။
+2. Repository ထဲမှာ **Add file → Upload files** → ZIP ထဲက file/folder အားလုံးကို ဆွဲထည့်ပါ (`icons` folder ပါ)။ ရှိပြီးသား file တွေကို အစားထိုးပါမယ်။ **Commit changes**။
+3. ပထမဆုံးအကြိမ်ဆိုရင် **Settings → Pages** → `Deploy from a branch` → `main` / `(root)` → **Save**။
+4. ၁–၂ မိနစ်အကြာ `https://<username>.github.io/<repo>/` မှာ ဖွင့်လို့ရပါပြီ။
 
-```js
-const VERSION = "wir-v1";   →   const VERSION = "wir-v2";
-```
+> ⚠️ `index.html` က repository ရဲ့ root မှာ တိုက်ရိုက်ရှိရမယ်။
+> ဒီ version မှာ `sw.js` ထဲက `VERSION = "wir-v2"` ဖြစ်ပြီးသား။ နောက်ထပ် update တင်ရင် `wir-v3` လို တိုးပေးပါ။
 
-မတိုးရင် ကျောင်းသားတွေ ဖုန်းမှာ version အဟောင်းပဲ ဆက်ပြနေနိုင်ပါတယ်။
+## 📲 Install လုပ်နည်း
+
+- **Android (Chrome)**: ⋮ → **Install app / Add to Home screen**
+- **iPhone / iPad (Safari)**: Share ⬆️ → **Add to Home Screen**
+- **Computer (Chrome / Edge)**: Address bar ညာဘက်က Install icon
+
+ပထမဆုံးတစ်ခါ **Internet ရှိချိန် ဖွင့်ပေးရမယ်**။ ပြီးရင် Offline ရပါပြီ။
 
 ## 🛠 ပြဿနာဖြေရှင်း
 
-- **404** → Pages settings မှာ `main` + `/ (root)` ဟုတ်မဟုတ် စစ်ပါ
-- **Install ခလုတ် မပေါ်** → `https://` link ဖြစ်ရမယ်၊ `icons` folder ပါမပါ စစ်ပါ
-- **Update မပေါ်** → `VERSION` တိုးပြီး App ကို ပိတ်ပြီး ၂ ခါ ပြန်ဖွင့်ပါ
-- **Font ပုံစံ ပြောင်းနေ** → Internet နဲ့ တစ်ခါဖွင့်ပေးရင် font တွေ cache ဖြစ်သွားပါမယ်
+- **အသံမထွက်** → ဖုန်း silent mode ပိတ်ပါ၊ `.mp3` သုံးပါ၊ app ထဲက 🔇 Mute ကို စစ်ပါ
+- **"File not found"** → Upload မှာ အဲဒီ file ကို ထပ်တင်ပါ (နာမည် spelling စစ်ပါ)
+- **Update မပေါ်** → App ကို အပြီးပိတ်ပြီး ၂ ခါ ပြန်ဖွင့်ပါ
+- **404** → Pages settings မှာ `main` + `/ (root)` စစ်ပါ
 
 ---
 Made for Myanmar learners 🇲🇲

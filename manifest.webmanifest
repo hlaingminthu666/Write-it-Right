@@ -1,7 +1,7 @@
 {
   "name": "Write It Right",
   "short_name": "Write It Right",
-  "description": "Offline English writing practice for students",
+  "description": "Offline English writing, dictation and picture vocabulary practice",
   "start_url": "./",
   "scope": "./",
   "display": "standalone",
